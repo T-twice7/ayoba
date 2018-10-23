@@ -1,0 +1,57 @@
+h1{
+    color:teal;
+    text-align: center;
+    text-transform: uppercase;
+}
+p
+{
+color: teal; 
+text-align: center;
+    text-transform: uppercase;
+}
+caption{
+    color:teal;
+    text-transform: uppercase;
+}
+
+table, td, th {
+    width: 50%;
+    border: 4px solid darkolivegreen;
+    border-collapse: collapse;
+    background-color:transparent;
+   border-style: double
+}
+th, td {
+    padding: 5px;
+    text-align: center;
+}
+.tr1{
+background-color: springgreen;
+}
+.td1{
+background-image: url("../assets/taxi.jpg");
+background-position: small;
+    height: 50px;
+}
+.td2{
+    background-image: url("../assets/clothes.jpg");
+    height: 50px;
+  }
+    .td3{
+        background-image: url("../assets/food.jpg");
+        
+    height: 50px;
+        }
+        .td4{
+            background-image: url("../assets/airtime.jpg");
+           
+    height: 50px;
+            }
+body{
+    background-image: url("../assets/budget.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    height: 100vh;
+    width: 100vw;
+}
